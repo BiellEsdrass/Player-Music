@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #171717;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #252525;
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  box-shadow: 5px 5px 25px 1px rgb(0, 0, 0);
+}
+.main #goldenHour {
+  border-radius: 20px;
+  height: 20rem;
+  margin-bottom: 1rem;
+}
+.main__duration__bar {
+  width: 100%;
+  height: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.5176470588);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 9px;
+}
+.main__duration__bar #progress {
+  height: 5px;
+  width: 50%;
+  border: none;
+}
+.main__duration__bar__point {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(203, 203, 203);
+  border-radius: 50%;
+}
+.main__duration__time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.596);
+  font-size: 13px;
+}
+.main__description {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.main__description h3 {
+  color: #e42e10;
+  font-size: 25px;
+}
+.main__navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main__navigation__musicPlay {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.main__navigation__musicPlay #playIcon {
+  height: 3rem;
+  cursor: pointer;
+}
+.main__navigation__musicPlay #proxMusic {
+  transform: rotate(180deg);
+  cursor: pointer;
+  height: 1.8rem;
+}
+.main__navigation__musicPlay #prevMusic {
+  cursor: pointer;
+  height: 1.8rem;
+}
+.main__navigation #likeIcon {
+  cursor: pointer;
+  height: 1.5rem;
+}
+.main__navigation #threePoints {
+  cursor: pointer;
+  height: 1.5rem;
+}/*# sourceMappingURL=style.css.map */
